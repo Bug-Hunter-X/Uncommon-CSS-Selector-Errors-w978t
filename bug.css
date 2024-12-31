@@ -1,0 +1,8 @@
+The CSS code has an invalid or unexpected selector, such as using an invalid attribute selector or a selector that doesn't match any elements in the HTML. This may result in the styles not being applied as expected or cause unexpected behavior.  For instance:
+```css
+/*Invalid attribute selector*/
+div[type="text"] { color: blue; }
+
+/*Selector that doesn't match*/
+#nonExistentElement { background-color: red; }
+```

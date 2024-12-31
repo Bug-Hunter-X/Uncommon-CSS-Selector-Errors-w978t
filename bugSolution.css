@@ -1,0 +1,9 @@
+The corrected CSS code uses valid selectors that match the HTML structure.  Ensure your selectors precisely target the elements you intend to style. 
+```css
+/*Correct attribute selector using a valid attribute*/
+input[type="text"] { color: blue; }
+
+/*Correct selector that matches an element present in the HTML*/
+#myElement { background-color: red; }
+```
+To debug, carefully examine the HTML structure and make sure your selectors accurately target the elements you want to modify.  Use your browser's developer tools to inspect the elements and see which CSS rules are applied, and which are not. Pay particular attention to specificity issues where more specific selectors might override your intended styles.
